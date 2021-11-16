@@ -1,4 +1,4 @@
-import { Text } from "@mantine/core";
+import { Text } from '@mantine/core';
 
 const Game = () => {
   return <Text>Awesome Game</Text>;

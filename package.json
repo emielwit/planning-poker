@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "fix": "prettier --check 'src/**/*.{ts,tsx}'",
+    "clean": "rm -rf build",
+    "lint": "eslint src/ --ext .ts,.tsx",
     "start": "webpack serve --open --mode=development",
     "build": "webpack --mode production"
   },
@@ -33,6 +36,7 @@
     "eslint": "^8.2.0",
     "eslint-plugin-react": "^7.27.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.4.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4",
     "webpack": "^5.64.0",
